@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">
+function loader(){
+        try {
+                var stb = gSTB;
+        }
+        catch(e){
+        STB_EMULATION = true;
+        }
+	var params = "";
+	var url=window.location.href;
+	if (url.indexOf('?')!=-1){
+	    params=url.substring(url.indexOf('?'), url.length);
+	    }
+	console.log("params = "+params);
+	window.location="http://212.77.128.137/youtube.php"+params;
+        }
+</script>
+<style>
+.outer {
+}
+.outer img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+</style>
+</head>
+ <body onload="loader()">
+ <div class="outer">
+    <img src="youtube_logo1.png" alt="" >
+</div>
+ </body>
+</html>
