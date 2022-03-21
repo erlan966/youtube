@@ -4,11 +4,11 @@
   "version": "4.0.3",
   "description": "YouTube — популярный мировой видеохостинг, где пользователи могут добавлять, просматривать, комментировать и делиться с друзьями видеозаписями.",
   "author": {
-    "name": "BetaMaster"
+    "name": "erlan966r"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/betamaster2/youtube.git"
+    "url": "https://github.com/erlan966/youtube.git"
   },
   "config": {
     "type": "app",
